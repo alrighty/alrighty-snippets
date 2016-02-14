@@ -1,7 +1,7 @@
 {
   "name": "alrighty-snippets",
   "main": "./lib/alrighty-snippets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React ES6 snippets for Atom",
   "keywords": [
     "react",

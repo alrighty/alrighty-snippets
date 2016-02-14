@@ -1,11 +1,11 @@
 '.source.js':
   'React new Component':
-    'prefix': 'rnc'
+    'prefix': '_rnc'
     'body': """
       import React, { Component, PropTypes } from 'react';
 
       export default class ${1:MyComponent} extends Component {
-        ${1}.propTypes = {
+        static propTypes = {
 
         };
 
@@ -14,4 +14,4 @@
         }
       }
 
-    """
+      """
