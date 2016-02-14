@@ -1,0 +1,22 @@
+{
+  "name": "alrighty-snippets",
+  "main": "./lib/alrighty-snippets",
+  "version": "0.0.1",
+  "description": "React ES6 snippets for Atom",
+  "keywords": [
+    "react",
+    "ES6",
+    "babel",
+    "snippets"
+  ],
+  "activationCommands": {
+    "atom-workspace": "alrighty-snippets:toggle"
+  },
+  "repository": "https://github.com/atom/alrighty-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
