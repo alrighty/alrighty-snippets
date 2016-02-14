@@ -12,7 +12,7 @@
   "activationCommands": {
     "atom-workspace": "alrighty-snippets:toggle"
   },
-  "repository": "https://github.com/atom/alrighty-snippets",
+  "repository": "https://github.com/alrighty/alrighty-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
