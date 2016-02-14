@@ -10,7 +10,9 @@
         };
 
         render() {
-          return (${2:<div>MyComponent</div>});
+          return (
+            ${2:<div>MyComponent</div>}
+          );
         }
       }
 
