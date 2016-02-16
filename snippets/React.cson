@@ -18,6 +18,39 @@
 
       """
 
+  # Lifecycle Methods
+  'React componentWillMount':
+    'prefix': '_rcwm'
+    'body': """
+      componentWillMount() {
+        ${1}
+      }
+      """
+
+  'React componentDidMount':
+    'prefix': '_rcdm'
+    'body': """
+      componentDidMount() {
+        ${1}
+      }
+      """
+
+  'React componentWillReceiveProps':
+    'prefix': '_rcwrp'
+    'body': """
+      componentWillReceiveProps() {
+        ${1}
+      }
+      """
+
+  'React componentWillUnmount':
+    'prefix': '_rcwu'
+    'body': """
+      componentWillUnmount() {
+        ${1}
+      }
+      """
+
   # PropTypes string
   'React PropTypes string':
     'prefix': '_rps'
