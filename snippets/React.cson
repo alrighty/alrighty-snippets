@@ -1,5 +1,5 @@
 '.source.js, .source.jsx':
-  'React new Component':
+  'New Component':
     'prefix': '_rnc'
     'body': """
       import React, { Component, PropTypes } from 'react';
@@ -19,7 +19,7 @@
       """
 
   # Lifecycle Methods
-  'React componentWillMount':
+  'componentWillMount':
     'prefix': '_rcwm'
     'body': """
       componentWillMount() {
@@ -27,7 +27,7 @@
       }
       """
 
-  'React componentDidMount':
+  'componentDidMount':
     'prefix': '_rcdm'
     'body': """
       componentDidMount() {
@@ -35,7 +35,7 @@
       }
       """
 
-  'React componentWillReceiveProps':
+  'componentWillReceiveProps':
     'prefix': '_rcwrp'
     'body': """
       componentWillReceiveProps() {
@@ -43,7 +43,7 @@
       }
       """
 
-  'React componentWillUnmount':
+  'componentWillUnmount':
     'prefix': '_rcwu'
     'body': """
       componentWillUnmount() {
@@ -52,57 +52,57 @@
       """
 
   # PropTypes string
-  'React PropTypes string':
+  'PropTypes string':
     'prefix': '_rps'
     'body': "${1:myProp}: PropTypes.string,"
-  'React PropType string required':
+  'PropType string required':
     'prefix': '_rpsr',
     'body': "${1:myProp}: PropTypes.string.isRequired,"
 
   # PropType number
-  'React PropType number':
+  'PropType number':
     'prefix': '_rpn',
     'body': "${1:myProp}: PropTypes.number,"
-  'React PropType number required':
+  'PropType number required':
     'prefix': '_rpnr',
     'body': "${1:myProp}: PropTypes.number.isRequired,"
 
   # PropType object
-  'React PropType object':
+  'PropType object':
     'prefix': '_rpo',
     'body': "${1:myProp}: PropTypes.object,"
-  'React PropType object required':
+  'PropType object required':
     'prefix': '_rpor',
     'body': "${1:myProp}: PropTypes.object.isRequired,"
 
   # PropType array
-  'React PropType array':
+  'PropType array':
     'prefix': '_rpa',
     'body': "${1:myProp}: PropTypes.array,"
-  'React PropType array required':
+  'PropType array required':
     'prefix': '_rpar',
     'body': "${1:myProp}: PropTypes.array.isRequired,"
 
   # PropType bool
-  'React PropType bool':
+  'PropType bool':
     'prefix': '_rpb',
     'body': "${1:myProp}: PropTypes.bool,"
-  'React PropType bool required':
+  'PropType bool required':
     'prefix': '_rpbr',
     'body': "${1:myProp}: PropTypes.bool.isRequired,"
 
   # PropType element
-  'React PropType element':
+  'PropType element':
     'prefix': '_rpe',
     'body': "${1:myProp}: PropTypes.element,"
-  'React PropType element required':
+  'PropType element required':
     'prefix': '_rper',
     'body': "${1:myProp}: PropTypes.element.isRequired,"
 
   # PropType function
-  'React PropType function':
+  'PropType function':
     'prefix': '_rpf',
     'body': "${1:myProp}: PropTypes.func,"
-  'React PropType function required':
+  'PropType function required':
     'prefix': '_rpfr',
     'body': "${1:myProp}: PropTypes.func.isRequired,"
