@@ -25,6 +25,25 @@ export default class ${1:MyComponent} extends Component {
 	}
 }
 ```
+
+### New Stateless component
+
+##### Prefix: _rns
+
+```js
+import React, { PropTypes } from 'react';
+
+export const ${1:MyComponent} = props => {
+
+	return (
+		${2:<div>MyComponent</div>}
+	);
+}
+
+${3:MyComponent}.propTypes = {
+
+}
+```
 ---
 
 ### Lifecycle Methods

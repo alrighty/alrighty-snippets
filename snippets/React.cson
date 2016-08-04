@@ -18,6 +18,24 @@
 
       """
 
+  'New Stateless Component':
+    'prefix': '_rns'
+    'body': """
+      import React, { PropTypes } from 'react';
+
+      export const ${1:MyComponent} = props => {
+
+        return (
+          ${2:<div>MyComponent</div>}
+        );
+      }
+
+      ${3:MyComponent}.propTypes = {
+
+      }
+
+      """
+
   # Lifecycle Methods
   'componentWillMount':
     'prefix': '_rcwm'
