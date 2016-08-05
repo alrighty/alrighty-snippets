@@ -58,7 +58,7 @@ componentWillMount() {
 ##### Prefix: _rcdm
 
 ```js
-componentWillReceiveProps() {
+componentWillReceiveProps(nextProps) {
 	${1}
 }
 ```

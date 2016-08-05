@@ -56,7 +56,7 @@
   'componentWillReceiveProps':
     'prefix': '_rcwrp'
     'body': """
-      componentWillReceiveProps() {
+      componentWillReceiveProps(nextProps) {
         ${1}
       }
       """
